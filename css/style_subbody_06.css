@@ -1,0 +1,108 @@
+#container {
+    position: absolute; left: 50%; transform: translateX(-50%);
+    background-image: url("../image/g_back.png");
+}
+#selectmenu { /*header_↓*/
+    color: #3F69B2;
+}
+.createdPage {
+    color: #3F69B2;
+    font-family: 'S-CoreDream-7ExtraBold';
+}
+#selectmenu_dc {
+    width: 100px;
+}
+#greetings {
+    padding-top: 120px;
+    width: 1420px;
+    height: 1420px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.75;
+}
+#nav_greetings {
+    margin-top: 25px;
+}
+#nav_greetings > ul > li {
+    display: inline-block;
+    padding: 0px 20px;
+    cursor: pointer;
+    font-size: 12pt;
+    height: 30px;
+}
+#nav_greetings > ul > li:not(:last-child) {
+    border-right: 1px solid #CCCCCC;
+}
+#nav_greetings > ul > li:not(:first-child) {
+    color: #D1D3D4;
+}
+#nav_greetings > ul > li:hover {
+    color:#3F69B2;
+    transition-duration: 0.3s;
+}
+#selec_nav {
+    color: #3F69B2;
+    font-family: 'S-CoreDream-7ExtraBold';
+}
+#main_logo {
+    width: 500px;
+    margin-top: 120px;
+}
+#quotation {
+    display: block;
+    width: 75px;
+    opacity: 0.5;
+    margin: 50px auto 20px;
+}
+#quotation_01 {
+    display: block;
+    width: 75px;
+    opacity: 0.5;
+    transform: scaleY(-1) scaleX(-1);
+    margin: 0px auto;
+}
+#greetings_sub_box {
+    height: 575px;
+}
+.greetings_sub {
+    width: 355px;
+    float: left;
+    padding: 50px;
+    margin-top: 70px;
+}
+.greetings_sub > img {
+    width: 120px;
+    height: 120px;
+}
+.greetings_sub > img:hover {
+    transform: rotateY( 360deg );
+    transition-duration: 0.3s;
+}
+.sub_dc {
+    width: 50px;
+    height: 2.5px;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 15px auto;
+}
+.greetings_sub > p:nth-child(3) {
+    color: #3F69B2;
+    font-size: 14pt;
+    font-family: 'S-CoreDream-7ExtraBold';
+    line-height: 1.5;
+}
+.greetings_sub > p:last-child {
+    font-size: 12pt;
+    margin-top: 20px;
+    text-align: center;
+}
+#main_contents_footer {
+    text-align: center;
+    height: 75px;
+    background-color: #9FA0A0;
+    color: white;
+    line-height: 75px;
+}
+footer { /*footer_↓*/
+    padding-top: 20px;
+    height: 350px;
+}

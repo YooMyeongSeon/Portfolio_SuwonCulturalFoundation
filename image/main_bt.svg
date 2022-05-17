@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="레이어_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:none;stroke:#FFFFFF;stroke-width:1.0001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#FFFFFF;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#FFFFFF;stroke-width:1.1667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<g>
+	<g>
+		<g>
+			<path class="st0" d="M30,1c15.99,0,29,13.01,29,29S45.99,59,30,59S1,45.99,1,30S14.01,1,30,1 M30,0C13.43,0,0,13.43,0,30
+				s13.43,30,30,30s30-13.43,30-30S46.57,0,30,0L30,0z"/>
+		</g>
+	</g>
+	<polyline class="st1" points="35,15 20,30 35,45 	"/>
+</g>
+<g>
+	<circle class="st2" cx="-598.94" cy="311.92" r="30"/>
+	<polyline class="st3" points="-595.72,296.92 -610.72,311.92 -595.72,326.92 	"/>
+</g>
+</svg>

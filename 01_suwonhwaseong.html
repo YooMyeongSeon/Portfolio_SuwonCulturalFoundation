@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="image/favicon.ico"> <!--파비콘-->
+    <title>수원문화재단</title>
+    <link rel="stylesheet" href="css/style_base.css"> <!--베이스_스타일시트-->
+    <link rel="stylesheet" href="css/style_header.css"> <!--헤드_스타일시트-->
+    <link rel="stylesheet" href="css/style_subbody_01.css"> <!--바디_스타일시트-->
+    <script src="jq/jquery-3.6.0.min.js"></script> <!--제이쿼리-->
+    <script src="jq/jquery-migrate-1.4.1.min.js"></script> <!--제이쿼리-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"> <!--메인롤링배너-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> <!--메인롤링배너-->
+</head>
+<body>
+    <header> <!--header_↓-->
+        <div id="quick_site"> <!--quick_site_↓-->
+            <ul>
+                <li><a href="http://suwonskartrium.or.kr/" target="_blank">수원SK아트리움</a></li>
+                <li><a href="http://www.swcf.or.kr/swdb/" target="_blank">수원문화지도</a></li>
+                <li><a href="https://www.swmedia.or.kr/" target="_blank">수원미디어센터</a></li>
+                <li><a href="https://www.swculture.or.kr" target="_blank">문화도시수원</a></li>
+            </ul>
+        </div>
+        <nav> <!--nav_↓-->
+            <div id="logo"><a href="index.html"><img src="image/logo.svg"></a></div>
+            <ul>
+                <li>
+                    <a href="01_suwonhwaseong.html" id="selectmenu">관광 안내<div class="nav_dc" id="selectmenu_dc"></div></a>
+                    <div class="nav_ex">
+                        <ul>
+                            <li><a href="01_suwonhwaseong.html" class="createdPage">· 수원 화성 소개</a></li>
+                            <li><a href="#">· 화성 행궁 소개</a></li>
+                            <li><a href="#">· 관람 안내</a></li>
+                            <li><a href="#">· 문화 관광 해설</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">· 화령전 소개</a></li>
+                            <li><a href="#">· 주변 명소 안내</a></li>
+                            <li><a href="#">· 화성 행궁 야간 개장</a></li>
+                            <li><a href="#">· 수원 화성 공연·체험</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">· 행궁동 왕의 골목 여행</a></li>
+                            <li><a href="#">· 문턱 없는 가이드북</a></li>
+                            <li><a href="#">· 여행 꼭지점 카페</a></li>
+                            <li><a href="#">· TV속 수원 화성</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="02_neunghaengcha.html">축제·행사<div class="nav_dc"></div></a>
+                    <div class="nav_ex" id="nav_ex_02">
+                        <ul>
+                            <li><a href="02_neunghaengcha.html" class="createdPage">· 정조대왕 능행차</a></li>
+                            <li><a href="#">· 수원 화성 문화제</a></li>
+                            <li><a href="#">· 세계 유산 축전</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">· 미디어 아트쇼</a></li>
+                            <li><a href="#">· 수원 문화재 야행</a></li>
+                            <li><a href="#">· 수원 연극 축제</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">· 수원 재즈 페스티벌</a></li>
+                            <li><a href="#">· 행사 정보</a></li>
+                            <li><a href="#">· 교육 정보</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="03_ssac.html">문화 사업<div class="nav_dc"></div></a>
+                    <div class="nav_ex" id="nav_ex_03">
+                        <ul>
+                            <li><a href="03_ssac.html" class="createdPage">· 문화 기부 ssac</a></li>
+                            <li><a href="#">· 문화 도시 수원</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">· 문화 사업 안내</a></li>
+                            <li><a href="#">· 지원 사업 안내</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">· 수원 문화 지도</a></li>
+                            <li><a href="#">· 아트리움 공연 정보</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="04_skartrium.html">문화 시설<div class="nav_dc"></div></a>
+                    <div class="nav_ex" id="nav_ex_04">
+                        <ul class="facility">
+                            <li><a href="04_skartrium.html" class="createdPage">· 수원 SK 아트리움</a></li>
+                            <li><a href="#">· 수원 호스텔</a></li>
+                            <li><a href="#">· 화서 사랑채</a></li>
+                            <li><a href="#">· 화홍 사랑채</a></li>
+                        </ul>
+                        <ul class="facility">
+                            <li><a href="#">· 수원 제 1 야외 음악당</a></li>
+                            <li><a href="#">· 수원 제 2 야외 음악당</a></li>
+                            <li><a href="#">· 푸른 지대 창작 샘터</a></li>
+                            <li><a href="#">· 지동 예술 샘터</a></li>
+                            
+                        </ul>
+                        <ul class="facility">
+                            <li><a href="#">· 한옥 기술 전시관</a></li>
+                            <li><a href="#">· 수원 전통 문화관</a></li>
+                            <li><a href="#">· 무형 문화재 전수 회관</a></li>
+                            <li><a href="#">· 행궁길 갤러리</a></li>
+                        </ul>
+                        <ul class="facility">
+                            <li><a href="#">· 수원 미디어 센터</a></li>
+                            <li><a href="#">· 지혜샘 도서관</a></li>
+                            <li><a href="#">· 바른샘 도서관</a></li>
+                            <li><a href="#">· 슬기샘 도서관</a></li>
+                        </ul>
+                        <ul class="facility">
+                            <li><a href="#">· 111CM</a></li>
+                            <li><a href="#">· 실험 목장 AGIT</a></li>
+                            <li><a href="#">· 시설물 대관 안내</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="05_jaedansosig.html">정보 공개<div class="nav_dc"></div></a>
+                    <div class="nav_ex" id="nav_ex_05">
+                        <ul>
+                            <li><a href="05_jaedansosig.html" class="createdPage">· 재단 소식</a></li>
+                            <li><a href="#">· 열린 의견</a></li>
+                            <li><a href="#">· 통합 온라인 접수</a></li>
+                            <li><a href="#">· 부패·공익 신고 센터</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">· 공공 데이터 개방</a></li>
+                            <li><a href="#">· 자료실</a></li>
+                            <li><a href="#">· 프레스룸</a></li>
+                            <li><a href="#">· 경영 공시</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">· 반부패 청렴 활동</a></li>
+                            <li><a href="#">· 인인화락 웹진</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="06_greetings.html">재단 소개<div class="nav_dc"></div></a>
+                    <div class="nav_ex" id="nav_ex_06">
+                        <ul>
+                            <li><a href="06_greetings.html" class="createdPage">· 인사말</a></li>
+                            <li><a href="#">· 비전 및 경영 전략</a></li>
+                            <li><a href="#">· 연혁 및 설립 배경</a></li>
+                            
+                        </ul>
+                        <ul>
+                            <li><a href="#">· CI소개</a></li>
+                            <li><a href="#">· 조직 및 담당 업무</a></li>
+                            <li><a href="#">· 재단 오시는 길</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            <div id="nav_ex_sub"></div>
+            <div id="n_right"> <!--nav_right_↓-->
+                <ul id="n_lang">
+                    <li><a href="index.html">KOR</a></li>
+                    <li><a href="#">ENG</a></li>
+                    <li><a href="#">JPN</a></li>
+                    <li><a href="#">CHN</a></li>
+                </ul>
+                <div id="n_icon">
+                    <a class="n_icon_1" href="#"><img src="image/login.svg"></a>
+                    <a class="n_icon_1" href="#"><img src="image/menu.svg"></a>
+                    <a class="n_icon_1" onclick="Search_p()"><img src="image/search.svg"></a>
+                </div>
+                <div id="search_box">
+                    <form action="">
+                        <input type="text" id="search" placeholder="검색어를 입력하세요.">
+                        <a id="n_icon_2" href="#"><img src="image/search.svg"></a>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="container">
+        <div id="contents">
+            <div id="main_img_box"> <!--main_img_↓-->
+                <div id="main_img_cover">
+                    <p>수원 화성 : 북수문, 화홍문(北水門, 華虹門) [1/8]</p>
+                    <a href="#" id="main_bt_1"><img src="image/main_imh_bt(sub).svg"></a>
+                    <a href="#" id="main_bt_2"><img src="image/main_imh_bt(sub).svg"></a>
+                </div>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="main_img" id="img_0000">
+                                <img src="image/SUB_Main_01.png" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="main_img">
+                                <img src="image/SUB_Main_02.png" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="main_img">
+                                <img src="image/SUB_Main_03.png" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="main_img">
+                                <img src="image/SUB_Main_04.png" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="main_img">
+                                <img src="image/SUB_Main_05.png" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="main_img">
+                                <img src="image/SUB_Main_06.png" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="main_img">
+                                <img src="image/SUB_Main_07.png" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="main_img">
+                                <img src="image/SUB_Main_08.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="main_img_map"><p>+ 지도로 보기</p></div>
+                <div id="main_img_text">
+                    <p>조선 성곽 건축의 꽃, 수원화성 <span id="tit_eng">: Suwon Hwaseong</span></p>
+                    <p>조선 제22대 정조대왕이 장헌세자에 대한 효심으로 부친의 원침을 수원 화산으로 옮긴 후 1796년 9월 완공된 성입니다. 수원화성은 조선왕조 제22대 정조대왕이 세자에 책봉되었으나 당쟁에 휘말려 왕위에 오르지 못하고 뒤주 속에서 생을 마감한 아버지 사도세자의 능침을 양주 배봉산에서 조선 최대의 명당인 수원 화산으로 천봉하고 화산 부근에 있던 읍치를 수원 팔달산 아래 지금의 위치로 옮기면서 축성되었다. 수원화성은 정조의 효심이 축성의 근본이 되었을 뿐만 아니라 당쟁에 의한 당파정치 근절과 강력한 왕도정치의 실현을 위한 원대한 정치적 포부가 담긴 정치구상의 중심지로 지어진 것이며 수도 남쪽의 국방요새로 활용하기 위한 것이었다.</p>
+                    <div id="main_img_text_ex">
+                        <p>수원화성은 규장각 문신 정약용이 동서양의 기술서를 참고하여 만든 「성화주략(1793년)」을 지침서로 하여, 재상을 지낸 영중추부사 채제공의 총괄아래 조심태의 지휘로 1794년 1월에 착공에 들어가 1796년 9월에 완공하였다. 축성시에 거중기, 녹로 등 신기재를 특수하게 고안·사용하여 장대한 석재 등을 옮기며 쌓는데 이용하였다. 수원화성 축성과 함께 부속시설물로 화성행궁, 중포사, 내포사, 사직단 등 많은 시설물을 건립하였으나 전란으로 소멸되고 현재 화성행궁의 일부인 낙남헌만 남아있다.</p>
+                        <p>수원화성은 축조이후 일제 강점기를 지나 한국전쟁을 겪으면서 성곽의 일부가 파손·손실되었으나 1975~1979년까지 축성직후 발간된 "화성성역의궤"에 의거하여 대부분 축성 당시 모습대로 보수·복원하여 현재에 이르고 있다.</p>
+                        <p>성의 둘레는 5,744m, 면적은 130ha로 동쪽지형은 평지를 이루고 서쪽은 팔달산에 걸쳐 있는 평산성의 형태로 성의 시설물은 문루 4, 수문 2, 공심돈 3, 장대 2, 노대 2, 포(鋪)루 5, 포(砲)루 5, 각루 4, 암문 5, 봉돈 1, 적대 4, 치성 10, 은구 2 총 49개의 시설물로 일곽을 이루고 있으나 이 중 수해와 전란으로 시설물 일부가 소멸되었다.(현재 소멸된 시설물 : 공심돈 1, 암문 1, 적대 2, 은구 2 / 남수문 2012년 6월 복원 완료)</p>
+                        <p>수원화성은 축성시의 성곽이 거의 원형대로 보존되어 있을 뿐 아니라, 북수문(화홍문)을 통해 흐르던 수원천이 현재에도 그대로 흐르고 있고, 팔달문과 장안문, 화성행궁과 창룡문을 잇는 가로망이 현재에도 도시 내부 가로망 구성의 주요 골격을 유지하고 있는 등 220년전 성의 골격이 그대로 현존하고 있다. 축성의 동기가 군사적 목적보다는 정치·경제적 측면과 부모에 대한 효심으로 성곽자체가 "효"사상이라는 동양의 철학을 담고 있어 문화적 가치외에 정신적, 철학적 가치를 가지는 성으로 이와 관련된 문화재가 잘 보존되어 있다.</p>
+                        <p>수원화성은 중국, 일본 등지에서 찾아볼 수 없는 평산성의 형태로 군사적 방어기능과 상업적 기능을 함께 보유하고 있으며 시설의 기능이 가장 과학적이고 합리적이며, 실용적인 구조로 되어 있는 동양 성곽의 백미라 할 수 있다.</p>
+                        <p>성벽은 외측만 쌓아올리고 내측은 자연지세를 이용해 흙을 돋우어 메우는 외축내탁의 축성술로 자연과 조화를 이루는 성곽을 만들었으며, 또한 수원화성은 철학적 논쟁 대신에 백성의 현실생활속에서 학문의 실천과제를 찾으려고 노력한 실학사상의 영향으로 벽돌과 석재를 혼용한 축성법, 현안ㆍ누조의 고안, 거중기의 발명, 목재와 벽돌의 조화를 이룬 축성방법 등은 동양성곽 축성술의 결정체로서 희대의 수작이라 할 수 있다. 특히, 당대학자들이 충분한 연구와 치밀한 계획에 의해 동서양 축성술을 집약하여 축성하였기 때문에 그 건축사적 의의가 매우 크다.</p>
+                        <p>축성 후 1801년에 발간된 「화성성역의궤」에는 축성계획, 제도, 법식뿐 아니라 동원된 인력의 인적사항, 재료의 출처 및 용도, 예산 및 임금계산, 시공기계, 재료가공법, 공사일지 등이 상세히 기록되어 있어 성곽축성 등 건축사에 큰 발자취를 남기고 있을 뿐만 아니라 그 기록으로서의 역사적 가치가 큰 것으로 평가되고 있다.</p>
+                        <p>수원화성은 사적 제3호로 지정 관리되고 있으며 소장 문화재로 팔달문(보물 제402호), 화서문(보물 제403호), 장안문, 서북공심돈(보물 제1710호), 방화수류정(보물 제1709호) 등이 있다. 수원화성은 1997년 12월 유네스코 세계문화유산으로 등록되었다.</p>
+                    </div>
+                    <div id="text_ex_b" onclick="main_img_text_ex_v()"><img id="text_ex_b_i" src="image/main_ex_bt(sub).svg" alt=""><p id="text_ex_b_t">더 보기</p></div>
+                </div>
+            </div>
+            <div id="main_search_box"> <!--main_search_box_↓-->
+                <select id="main_search_value">
+                    <option value="value_01">제목</option>
+                    <option value="value_02">내용</option>
+                </select>
+                <input id="main_search_input" type="text" placeholder="검색어를 입력하세요.">
+                <button id="main_search_button"><img src="image/search_w.svg">　 검색</button>
+            </div>
+            <div id="main_contents"> <!--main_contents_↓-->
+                <div class="main_contents_box">
+                    <img src="image/SUB_Contents_01.png">
+                    <p>장안문</p>
+                    <p class="m_c_sub_text">: 長安門</p>
+                    <p class="m_c_sub_ex">+ 자세히 보기</p>
+                    <p>장안문은 수원 화성의 북문이다. 정조는 장안長安의 의미를 ‘북쪽으로 서울의 궁궐을 바라보고, 남쪽으로 현륭(융릉)을 바라보며 만년의 편안함을 길이 알린다.’라고 풀이했다. 문 밖에 항아리 모양의 옹성甕城을 만들고 방어를 위해 좌우에 적대를 세웠다. 장안문은 남문인 팔달문과 더불어 화성에서 가장 웅장하고 높은 격식을 갖춘 건물이다. 2층의 누각은 네 모서리 추녀가 길게 경사를 이루면서 용마루와 만나는 우진각 지붕 형태다. 길고 휘어진 목재를 구하기 힘든 조선 시대에 우진각 지붕은 궁궐이나 도성의 정문과 같은 건물에만 쓰였다. 문루 처마 밑에는 다포多包라는 화려하고 정교하게 다듬은 받침 목재를 짜 맞췄는데, 다포식 건물은 18세기 이후 궁궐에서도 거의 백년 동안 짓지 않았기 때문에 특별히 강원도 출신의 승려 목수인 굉흡이 와서 건설을 도왔다. 서울의 숭례문, 흥인지문과...</p>
+                </div>
+                <div class="main_contents_box">
+                    <img src="image/SUB_Contents_02.png">
+                    <p>북옹성</p>
+                    <p class="m_c_sub_ex">+ 자세히 보기</p>
+                    <p>북옹성은 장안문 바깥에 반달 모양으로 쌓은 성으로, 성문을 이중으로 지키는 시설이다. 출입문을 옹성 한가운데 내서 출입하기 편하도록 했다. 조선 시대에 만든 여러 성곽에도 옹성이 설치되어 있지만 출입문을 중앙에 만든 있는 사례는 장안문과 팔달문이 드문 사례이다. 문 위에는 물을 저장하는 오성지를 설치하여 화공에 대비했다. 오성지는 화성에만 설치한 색다른 방어시설로서 정약용이 제안했으나 설계안대로 시공되지 못했다.</p>
+                </div>
+                <div class="main_contents_box">
+                    <img src="image/SUB_Contents_03.png">
+                    <p>북동적대</p>
+                    <p class="m_c_sub_text">: 北東敵臺</p>
+                    <p class="m_c_sub_ex">+ 자세히 보기</p>
+                    <p>북동적대는 장안문 동쪽에서 성문에 접근하는 적을 감시하고 공격하는 방어 시설이다. 화성에서는 장안문과 팔달문 좌우에 적대를 설치했는데 현재 장안문에만 남아 있다. 안쪽은 성벽과 같은 높이로 대를 쌓아 군사들이 지키고, 바깥쪽에는 현안懸眼이라고 하는 세로 방향의 긴 홈을 냈다. 현안은 성벽 가까이 접근한 적의 동향을 살피고 동시에 공격도 가능한 시설이다. 동북적대는 우리나라 성곽 중 적대가 있는 경우로 드물다.</p>
+                </div>
+                <div class="main_contents_box">
+                    <img src="image/SUB_Contents_04.png">
+                    <p>북서적대 </p>
+                    <p class="m_c_sub_text">: 北西敵臺</p>
+                    <p class="m_c_sub_ex">+ 자세히 보기</p>
+                    <p>북서적대는 장안문 서쪽에서 성문에 접근하는 적을 감시하고 공격하는 방어 시설이다. 화성에서는 장안문과 팔달문 좌우에 적대를 설치했는데 현재 장안문에만 남아 있다. 장안문 좌우 적대에는 현안을 세 줄 설치한 반면 팔달문 적대에는 두 줄을 설치했다. 현안은 성벽 가까이 접근한 적의 동향을 살피고 동시에 공격도 가능한 시설이다. 적대는 우리나라 성곽 중 유일하게 화성에만 있다.</p>
+                </div>
+                <div class="main_contents_box">
+                    <img src="image/SUB_Contents_05.png">
+                    <p>팔달문</p>
+                    <p class="m_c_sub_text">: 八達門</p>
+                    <p class="m_c_sub_ex">+ 자세히 보기</p>
+                    <p>팔달문은 수원 화성의 남문이다. 정조는 팔달八達의 의미를 ‘산 이름이 팔달이어서 문도 팔달이며, 사방팔방에서 배와 수레가 모인다.’는 뜻으로 풀이했다. 팔달문 주변은 삼남 지방으로 통하는 길목이어서 화성 축성 전에도 사람들의 발길이 잦았다. 장안문과 마찬가지로 문 밖에 항아리 모양의 옹성甕城을 만들고, 방어를 위해 좌우에 적대를 세웠다. 규모와 형식은 장안문과 같다. 1794년 2월 28일 장안문과 같은 날에 터 닦는 일을 시작했지만 대체로 장안문보다 공정별로 약 1주일 늦게 완성하였다. 강원도 출신 목수 윤사범이 다포를 짜 맞추는 일을 담당했는데, 이 목수는 훗날 창덕궁 인정전을 짓는 공사를 담당해 근 100년 만에 화성에서 재현했던 다포 건축 기술을 이어 나갔다. 팔달문은 축성 당시의 건축물뿐만 아니라 공사 감독과 석공의 이름을 새긴 실명판, 현판까지 원형이 잘 남아 있다.</p>
+                </div>
+                <div class="main_contents_box">
+                    <img src="image/SUB_Contents_06.png">
+                    <p>창룡문</p>
+                    <p class="m_c_sub_text">: 蒼龍門</p>
+                    <p class="m_c_sub_ex">+ 자세히 보기</p>
+                    <p>창룡문은 수원 화성의 동문이다. 창蒼은 푸른색을 가리키므로 ‘동쪽 방향을 지키는 신령한 청룡’을 상징한다. 창룡문은 바깥쪽에서 보면 안쪽으로 휘어 들어가는 곳에 자리 잡고 있어, 돌출된 좌우 성벽이 자연스럽게 성문을 보호하는 치성 역할을 한다. 문 안쪽의 넓은 공터는 군사들의 훈련장으로 쓰였다. 조선 시대 건축에는 일정한 위계질서가 있다. 같은 성문이지만 장안문과 팔달문은 높은 격식을 갖춘 반면 창룡문과 화서문은 한 단계 격을 낮춘 형태이다. 장안문과 팔달문이 2층 문루에 우진각 지붕인 반면 창룡문과 화서문은 1층 문루에 팔작지붕이다. 옹성은 서울의 흥인지문처럼 한쪽 모서리를 열어둔 형태다. 창룡문 옹성 안 석축에는 공사를 담당한 감독관과 석공 우두머리 이름을 새긴 실명판이 잘 남아 있다. 한국 전쟁 때 문루가 파괴되어 1976년에 복원했다.</p>
+                </div>
+                <div class="main_contents_box">
+                    <img src="image/SUB_Contents_07.png">
+                    <p>화서문</p>
+                    <p class="m_c_sub_text">: 華西門</p>
+                    <p class="m_c_sub_ex">+ 자세히 보기</p>
+                    <p>화서문은 수원 화성의 서문이다. ‘화성의 서쪽’이란 뜻이지만 서쪽에는 팔달산이 있어 서북쪽에 문을 두었다. 문밖으로 넓은 평지가 펼쳐져 있어 주변을 감시하기 위해 높다란 서북공심돈을 함께 세웠다. 조선 시대 건축에는 일정한 위계질서가 있다. 같은 성문이지만 장안문과 팔달문은 높은 격식을 갖춘 반면 창룡문과 화서문은 한 단계 격을 낮춘 형태이다. 석축의 규모도 작고, 1층 문루에 팔작지붕으로 이루어졌다. 화서문은 창건 당시 모습을 잘 유지하고 있어 간결하면서도 섬세한 18세기 건축 기술을 보여준다. 옹성 안 석축에는 공사를 담당한 감독관과 우두머리 석공의 이름이 새겨져 있다. 서울과 개성, 강화도에서 온 석공이 참여했는데 박상길은 축성이 끝난 후 석공 가운데 가장 높은 등급의 상을 받았다. 현판은 화성 축성의 총책임자였던 채제공이 썼으나 원본이 남아 있지 않다.</p>
+                </div>
+                <div class="main_contents_box">
+                    <img src="image/SUB_Contents_08.png">
+                    <p>북암문</p>
+                    <p class="m_c_sub_text">: 北暗門</p>
+                    <p class="m_c_sub_ex">+ 자세히 보기</p>
+                    <p>북암문은 화성 북쪽에 낸 비상 출입문이다. 암문이란 깊숙하고 후미진 곳에 설치하여 적이 모르게 출입하고 군수품을 조달하던 문을 의미한다. 화성에는 5곳의 암문이 있었는데 모두 벽돌로 만들었다. 북암문은 지형에 맞춰 좌우 성벽까지 벽돌로 둥글게 만들었다. 문 위에는 몸을 숨기고 적을 감시하기 위해 여장을 세웠는데 반원형은 원여장, 장방형은 비예라고 부른다. 축성 당시의 모습이 잘 남아 있다.</p>
+                </div>
+                <div class="main_contents_box">
+                    <img src="image/SUB_Contents_09.png">
+                    <p>동암문</p>
+                    <p class="m_c_sub_text">: 東暗門</p>
+                    <p class="m_c_sub_ex">+ 자세히 보기</p>
+                    <p>동암문은 화성 동쪽에 낸 비상 출입문이다. 암문이란 깊숙하고 후미진 곳에 설치하여 적이 모르게 출입하고 군수품을 조달하던 문을 의미한다. 화성에는 5곳의 암문이 있었는데 모두 벽돌로 만들었다. 동암문 상부에는 윗부분을 둥글게 만든 원여장을 설치했고, 좌우에는 네모난 비예睥睨를 세웠다. 비예는 암문 위에서 몸을 숨기고 적을 감시하기 위해 만든 여장이다. 성 안쪽에 도로가 생기면서 지형이 높아져 1976년 동암문 복원 시 계단을 추가했다.</p>
+                </div>
+                <div class="main_contents_box">
+                    <img src="image/SUB_Contents_10.png">
+                    <p>서암문</p>
+                    <p class="m_c_sub_text">: 西暗門</p>
+                    <p class="m_c_sub_ex">+ 자세히 보기</p>
+                    <p>서암문은 화성 서쪽 팔달산 꼭대기 성벽에 설치한 비상 출입문이다. 암문이란 깊숙하고 후미진 곳에 설치하여 적이 모르게 출입하고 군수품을 조달하던 문을 의미한다. 화성에는 5곳의 암문이 있는데 모두 벽돌로 만들었다. 서암문은 성벽을 안쪽으로 접혀 들어가도록 쌓고 그 사이에 문을 내서 바깥에서 알아차리기 어렵다. 화공에 대비하기 위한 오성지나 적을 감시하기 위한 비예 같은 별도의 방어 시설을 두지 않고 지형의 이점을 최대한 살렸다.</p>
+                </div>
+                <div id="main_contents_nums">
+                    <ul>
+                        <li><img src="image/arrow_d(sub).svg"></li>
+                        <li><img src="image/arrow(sub).svg" style="margin-right: 50px"></li>
+                        <li><span style="color:#3F69B2"><b>1</b></span></li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li>
+                        <li>5</li>
+                        <li><img src="image/arrow(sub).svg" style="transform: scaleX(-1); margin-left: 50px"></li>
+                        <li><img src="image/arrow_d(sub).svg" style="transform: scaleX(-1)"></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="main_contents_footer">
+                <div id="main_contents_footer_li">
+                    <ul>
+                        <li>관람안내</li>
+                        <li>주차안내</li>
+                        <li>홍보영상</li>
+                        <li>읽을거리</li>
+                        <li>사이버투어</li>
+                    </ul>
+                </div>
+                <div id="main_contents_footer_tel">
+                    <p>담당부서 : 수원문화재단　<span style="color:#cccccc">/</span>　전화번호 : 031-290-3600</p>
+                </div>
+            </div>
+            <footer> <!--footer_↓-->
+                <ul>
+                    <li><b>개인정보처리방침</b></li>
+                    <li>이용약관</li>
+                    <li>법적고지</li>
+                    <li>영상정보처리기기운영관리방침</li>
+                    <li>이메일주소무단수집거부</li>
+                    <li>사이트맵</li>
+                    <li>문화관광해설사</li>
+                </ul>
+                <div id="footer_lg_t">
+                    <div id="footer_logo">
+                        <img src="image/logo_gray.svg">
+                    </div>
+                    <div id="footer_tb">
+                        <p id="footer_t">16261 경기도 수원특례시 팔달구 행궁로 11(남창동) 수원문화재단 | 사업자등록번호 135-82-15727<br>대표전화번호 : 031-290-3600 | 대표팩스번호 : 031-290-3520 | 대표이메일 : swcf_kr@swcf.or.kr</p>
+                        <p id="footer_tl">COPYRIGHT SUWON CULTURAL FOUNDATION. ALL RIGHTS RESERVED.</p>
+                    </div>
+                </div>
+                <div id="footer_img">
+                    <img src="image/footer_icon_01.svg">
+                    <img src="image/footer_icon_02.svg">
+                    <img src="image/footer_icon_03.svg">
+                    <img src="image/footer_icon_04.svg">
+                </div>
+            </footer>
+        </div>
+    </div>
+    <!--script_↓-->
+    <script src="js/js_suwonhwaseong.js"></script>
+</body>
+</html>
